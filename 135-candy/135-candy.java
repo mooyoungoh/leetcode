@@ -15,7 +15,7 @@ class Solution {
         
         for(int i = n - 1; i > 0; i--){
             if(ratings[i - 1] > ratings[i]){
-                System.out.println(i);
+               // System.out.println(i);
                 res[i - 1] = Math.max(res[i] + 1, res[i - 1]);    
             }
         }
