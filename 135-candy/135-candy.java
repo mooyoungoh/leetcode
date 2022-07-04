@@ -12,10 +12,11 @@ class Solution {
                 res[i] = res[i - 1] + 1;            
             }  
         }    
-
+        
         for(int i = n - 1; i > 0; i--){
             if(ratings[i - 1] > ratings[i]){
-              res[i - 1] = Math.max(res[i] + 1, res[i - 1]);    
+                System.out.println(i);
+                res[i - 1] = Math.max(res[i] + 1, res[i - 1]);    
             }
         }
 
