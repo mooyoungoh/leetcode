@@ -28,7 +28,7 @@ class Solution {
                 sum += grid[i][j];
             }
             
-            System.out.println(sum);
+            //System.out.println(sum);
             if(sum != 0 && sum != n){
                 return false;
             }
