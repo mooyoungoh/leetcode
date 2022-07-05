@@ -13,14 +13,35 @@ class Solution {
                 }
             }
         }
-        
+        /*
         for(int i = 1; i < m ; i++){
             for(int j = 0; j < n-1; j++){
+                System.out.print(grid[i][j] + " " + grid[i][j+1]);
                 if(grid[i][j] != grid[i][j+1]){
                     return false;
                 }
             }
         }
+        */
+        
+        for(int i=1; i<m; i++){
+            int sum = 0;
+            for(int j=0; j<n; j++){
+                sum += grid[i][j];
+            }
+            
+            if(sum != 0 && sum != n){
+                return false;
+            }
+        }
+        
         return true;
     }
 }
+
+/*
+101
+101
+010
+
+*/
