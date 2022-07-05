@@ -24,9 +24,9 @@ class Solution {
         }
         */
         
-        for(int i=1; i<m; i++){
+        for(int i = 1; i < m; i++){
             int sum = 0;
-            for(int j=0; j<n; j++){
+            for(int j=0; j < n; j++){
                 sum += grid[i][j];
             }
             
