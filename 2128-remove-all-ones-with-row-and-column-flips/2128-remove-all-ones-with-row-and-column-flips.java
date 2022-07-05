@@ -3,11 +3,9 @@ class Solution {
         int m = grid.length;
         int n = grid[0].length;
         
-        boolean[] flip = new boolean[n];
-        
         for(int j = 0 ; j < n; j++){
-            if(grid[0][j] == 1 && !flip[j]){
-                flip[j] = true;
+            if(grid[0][j] == 1){
+                
                 for(int i = 0 ; i < m; i++){
                     grid[i][j] = (grid[i][j] == 0) ? 1 : 0;
                 }
@@ -30,6 +28,7 @@ class Solution {
                 sum += grid[i][j];
             }
             
+            System.out.println(sum);
             if(sum != 0 && sum != n){
                 return false;
             }
