@@ -1,32 +1,60 @@
 class Solution {
     public List<String> findAllRecipes(String[] recipes, List<List<String>> ingredients, String[] supplies) {
-        Set<String> seen = new HashSet<>();
-        for (String sup : supplies) {
-            seen.add(sup);
+       HashSet<String> sup = new HashSet<>();
+        HashMap<String, Integer> index = new HashMap<>();
+        HashMap<String, List<String>> map = new HashMap<>();
+        
+        // create hashset of supplies
+        for(String s: supplies) {
+            sup.add(s);
         }
-        Queue<Integer> q = new LinkedList<>();
-        for (int i = 0; i < recipes.length; ++i) {
-            q.offer(i);
+        
+        // store index of all recipes
+        for(int i = 0; i < recipes.length; i++) {
+            index.put(recipes[i], i);
         }
-        List<String> ans = new ArrayList<>();
-        int prevSize = seen.size() - 1;
-        while (seen.size() > prevSize) {
-            prevSize = seen.size();
-            
-            int size = q.size();
-            mid:
-            for (int sz = size; sz > 0; --sz) {
-                int i = q.poll();
-                for (String ing : ingredients.get(i)) {
-                    if (!seen.contains(ing)) {
-                        q.offer(i);
-                        continue mid;
-                    }
-                }
-                seen.add(recipes[i]);
-                ans.add(recipes[i]);
+        
+        int[] indegree = new int[recipes.length];
+        // create a mapping of all the recipes that are Ingredients as well
+        // to the recipes they are ingredients for
+        for(int i = 0; i < recipes.length; i++) {
+            for(String need: ingredients.get(i)) {
+                if(sup.contains(need))
+                    continue;
+                
+                map.putIfAbsent(need, new ArrayList<String>());
+                map.get(need).add(recipes[i]);
+                indegree[i]++;
             }
         }
-        return ans;
+        
+        LinkedList<Integer> q = new LinkedList<>();
+        // add all the recipes with indegree 0 to the queue
+        for(int i = 0; i < recipes.length; i++) {
+            if(indegree[i] == 0) {
+                q.add(i);
+            }
+        }
+        
+        List<String> cooked = new ArrayList<>();
+        while(!q.isEmpty()) {
+            int i = q.poll();
+            cooked.add(recipes[i]);
+            
+            if(!map.containsKey(recipes[i])) {
+                // if the map does not contain this recipe, this means
+                // this recipe is not an ingredient for any other recipe
+                // and no further processing is required
+                continue;
+            }
+            
+            for(String recipe: map.get(recipes[i])) {
+                if(--indegree[index.get(recipe)] == 0) {
+                    q.add(index.get(recipe));
+                }
+            }
+        }
+        
+        return cooked;
     }
 }
