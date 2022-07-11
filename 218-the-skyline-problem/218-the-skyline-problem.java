@@ -35,7 +35,7 @@ class Solution {
             
         });
         
-        PriorityQueue<Integer> pq = new PriorityQueue<>(10, (a,b) -> b-a);
+        PriorityQueue<Integer> pq = new PriorityQueue<>(2, (a,b) -> b-a);
         
         pq.offer(0);
         
