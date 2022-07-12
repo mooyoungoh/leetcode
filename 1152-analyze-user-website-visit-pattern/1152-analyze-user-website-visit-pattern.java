@@ -18,16 +18,16 @@ class Solution {
         }
         
         Map<String, Integer> count = new HashMap<>();
-        
         String res = "";
         
         for(String key : map.keySet()){
             Set<String> set = new HashSet<>();
+            
             List<Pair> list = map.get(key);
             Collections.sort(list, (a,b) -> a.time - b.time);
-            for(int i = 0 ; i < list.size() - 2; i++){
-                for(int j = i + 1; j < list.size() - 1; j++){
-                    for(int k = j + 1; k < list.size(); k++){
+            for(int i = 0 ; i < list.size() -2 ; i++){
+                for(int j = i+1; j < list.size()-1; j++){
+                    for(int k = j+1; k < list.size(); k++){
                         String str = list.get(i).web + " " + list.get(j).web + " " + list.get(k).web;
                         
                         if(!set.contains(str)){
@@ -36,15 +36,13 @@ class Solution {
                         }
                         
                         if(res.equals("") || count.get(res) < count.get(str) ||
-                          count.get(res) == count.get(str) && res.compareTo(str) > 0){
-                            res = str;
-                        }
-                        
-                        
+                          count.get(res) == count.get(str) && res.compareTo(str) > 0)
+                            res = str; 
                     }
                 }
             }
         }
+        
         return Arrays.asList(res.split(" "));
     }
 }
