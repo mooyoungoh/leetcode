@@ -23,8 +23,8 @@ class Solution {
                         arr[j] = k;
                         String str = new String(arr);
                         if(!visited.contains(str) && set.contains(str)){
-                            visited.add(str);
                             q.offer(str);
+                            visited.add(str);
                         }
                     }
                 }
