@@ -13,22 +13,21 @@ class Solution {
         if(node == null)
             return null;
         if(node.right != null){
-            return getLeft(node.right);
-        }
-        return getParent(node);
-    }
-    
-    private Node getLeft(Node node){
-        if(node.left == null)
+            node = node.right;
+            while(node != null && node.left != null){
+                node = node.left;
+            }
             return node;
-        return getLeft(node.left);
-    }
-    
-    private Node getParent(Node node){
-        if(node.parent == null)
-            return null;
-        if(node == node.parent.right)
-            return getParent(node.parent);
-        return node.parent;
+        }
+        
+        while(node != null){
+            if(node.parent == null)
+                return null;
+            if(node.parent.left == node)
+                return node.parent;
+            else
+                node = node.parent;
+        }
+        return node;
     }
 }
