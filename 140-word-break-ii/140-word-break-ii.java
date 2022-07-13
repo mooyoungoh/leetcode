@@ -3,7 +3,6 @@ class Solution {
     Map<String, List<String>> map = new HashMap<>();
     
     public List<String> wordBreak(String s, List<String> wordDict) {
-        
         List<String> al = new ArrayList<>();
         
         if(s.length() == 0 || s == null) return al;
@@ -18,12 +17,11 @@ class Solution {
                 List<String> tmp = wordBreak(s.substring(0, i), wordDict);
                 if(tmp.size() != 0){
                     for(int j = 0 ; j < tmp.size(); j++){
-                        al.add(tmp.get(j) + " " + t);
+                        al.add(tmp.get(j)+ " " + t);
                     }
                 }
             }
         }
-        
         map.put(s, al);
         return al;
     }
