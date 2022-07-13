@@ -1,6 +1,9 @@
 class Solution {
+    
     Map<String, List<String>> map = new HashMap<>();
+    
     public List<String> wordBreak(String s, List<String> wordDict) {
+        
         List<String> al = new ArrayList<>();
         
         if(s.length() == 0 || s == null) return al;
@@ -20,6 +23,7 @@ class Solution {
                 }
             }
         }
+        
         map.put(s, al);
         return al;
     }
