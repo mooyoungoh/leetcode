@@ -39,8 +39,8 @@ class LRUCache {
             if(cur.next != null) cur.next.prev = cur.prev;
             
             
-            head.prev = cur;
             cur.next = head;
+            head.prev = cur;
             head = cur;
         }
         
@@ -56,8 +56,8 @@ class LRUCache {
                 tail = cur;
             }else{
                 
-                head.prev = cur;
                 cur.next = head;
+                head.prev = cur;
                 head = cur;
             }
             map.put(key, cur);
