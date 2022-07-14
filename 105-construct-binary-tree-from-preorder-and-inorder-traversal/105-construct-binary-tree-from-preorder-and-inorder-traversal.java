@@ -17,7 +17,7 @@ class Solution {
     int idx = 0;
     
     public TreeNode buildTree(int[] preorder, int[] inorder) {
-        return helper(preorder,inorder,0,preorder.length-1);
+        return helper(preorder, inorder, 0, preorder.length-1);
     }
 
     private TreeNode helper(int[] preorder,int[] inorder, int start,int end){
@@ -30,8 +30,8 @@ class Solution {
         while(inorder[i] != root.val){
             i++;
         }
-        root.left = helper(preorder, inorder, start, i-1);
-        root.right = helper(preorder, inorder, i+1, end);
+        root.left = helper(preorder, inorder, start, i-1);  // left-side size 
+        root.right = helper(preorder, inorder, i+1, end);   // right-side size
         
         return root;
     }
