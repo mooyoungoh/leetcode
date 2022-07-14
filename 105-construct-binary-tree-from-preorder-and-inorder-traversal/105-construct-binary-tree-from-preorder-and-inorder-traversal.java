@@ -14,22 +14,37 @@
  * }
  */
 class Solution {
-    private int in = 0;
-    private int pre = 0;
+    int idx = 0;
     
     public TreeNode buildTree(int[] preorder, int[] inorder) {
-        return build(preorder, inorder, Integer.MIN_VALUE);
+        return helper(preorder,inorder,0,preorder.length-1);
     }
-    
-    private TreeNode build(int[] preorder, int[] inorder, int stop) {
-        if (pre >= preorder.length) return null;
-        if (inorder[in] == stop) {
-            in++;
-            return null;
+
+    private TreeNode helper(int[] preorder,int[] inorder, int start,int end){
+        if(start>end) return null;
+        
+        TreeNode root = new TreeNode(preorder[idx++]);
+        
+        int i=0;
+        
+        while(inorder[i] != root.val){
+            i++;
         }
-        TreeNode node = new TreeNode(preorder[pre++]);
-        node.left = build(preorder, inorder, node.val);
-        node.right = build(preorder, inorder, stop);
-        return node;        
+        root.left = helper(preorder, inorder, start, i-1);
+        root.right = helper(preorder, inorder, i+1, end);
+        
+        return root;
     }
 }
+
+/*
+
+# Preorder Traversal: Root -> Left -> Right
+# Inorder Traversal: Left -> Root -> Right
+# Hence, at any step, first value in the preorder traversal represents
+# root of the binary tree at that point.
+# If that value is at the i'th index in inorder list,
+# then all the values to its left are part of left subtree.
+# Similarly, all the values to its right are part of the right subtree.
+        
+*/
