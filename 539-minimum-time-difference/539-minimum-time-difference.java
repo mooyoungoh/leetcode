@@ -1,39 +1,32 @@
 class Solution {
     public int findMinDifference(List<String> timePoints) {
-    boolean[] minutes = new boolean[24 * 60];
-        for (String timePoint : timePoints) {
-            int hour = Integer.parseInt(timePoint.split(":")[0]);
-            int min = Integer.parseInt(timePoint.split(":")[1]);
-            if (minutes[hour * 60 + min]) // Min difference 0 exists if there are two equal timePoints
-                return 0;
-            minutes[hour * 60 + min] = true;
-        }
-        
         int min = Integer.MAX_VALUE;
-        int biggestMinuteSoFar = -1;  // the biggest minute meet so far
-        int smallestMinute = -1; // the smallest minute exists in timePoints
-        for (int minute = 0; minute < minutes.length; minute++) {
-            if (minutes[minute]) {
-                // minute exists in timePoints
-                if (biggestMinuteSoFar != -1)
-                    min = Math.min(min, minute - biggestMinuteSoFar);
-                
-                biggestMinuteSoFar = minute;
-                
-                if (smallestMinute == -1)
-                    smallestMinute = minute;
-            }
-            
+        boolean[] minutes = new boolean[24*60];
+        for(String s : timePoints){
+            String[] time = s.split(":");
+            int hour = Integer.parseInt(time[0]);
+            int minute = Integer.parseInt(time[1]);
+            if(minutes[hour*60+minute]) 
+                return 0;
+            minutes[hour*60+minute] = true;
         }
         
-        // Here biggestMinuteSoFar points to the biggest minute in timePoints
-        return Math.min(min, Math.min(biggestMinuteSoFar - smallestMinute, smallestMinute + 24 * 60 - biggestMinuteSoFar));
+        int maxx = -1;
+        int minn = -1;
+        for(int minute = 0; minute < minutes.length; minute++){
+            if(minutes[minute]){
+                if(maxx != -1){
+                    min = Math.min(min, minute - maxx);
+                }
+                
+                maxx = minute;
+                
+                if(minn == -1){
+                    minn = minute;
+                }
+            }
+        }
+        System.out.println(min);
+        return Math.min(min, Math.min(maxx - minn, minn + 24 * 60 - maxx));
     }
 }
-
-/*
-23 - 00 
-59 - 60
-
-
-*/
