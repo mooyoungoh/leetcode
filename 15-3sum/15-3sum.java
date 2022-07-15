@@ -6,6 +6,7 @@ class Solution {
         Set<List<Integer>> set = new HashSet<>();
         
         for(int i = 0 ; i < nums.length-2; i++){
+            if(nums[i] > 0) continue;
             int j = i + 1;
             int k = nums.length-1;
             
