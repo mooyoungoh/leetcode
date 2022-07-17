@@ -34,7 +34,6 @@ class Solution {
             } else if (c == '+' || c == '-') {
                 l1 = l1 + o1 * l2;
                 o1 = (c == '+' ? 1 : -1);
-
                 l2 = 1; o2 = 1;
             }
         }
