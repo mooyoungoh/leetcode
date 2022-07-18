@@ -3,34 +3,34 @@ class Solution {
     private final int[][] DIRS ={{2,1},{1,2},{-1,2},{-2,1},{-2,-1},{-1,-2},{1,-2},{2,-1}};
     
     public int minKnightMoves(int x, int y) {
+    
+        x = Math.abs(x);
+        y = Math.abs(y);
         
-        boolean[][] visited = new boolean[607][607];
-
-        Deque<int[]> queue = new LinkedList<>();
-        queue.addLast(new int[]{0, 0});
-        int steps = 0;
-
-        while (queue.size() > 0) {
-            int currLevelSize = queue.size();
-            // iterate through the current level
-            for (int i = 0; i < currLevelSize; i++) {
-                int[] curr = queue.removeFirst();
-                if (curr[0] == x && curr[1] == y) {
-                    return steps;
-                }
-
-                for (int[] offset : DIRS) {
-                    int[] next = new int[]{curr[0] + offset[0], curr[1] + offset[1]};
-                    // align the coordinate to the bitmap
-                    if (!visited[next[0] + 302][next[1] + 302]) {
-                        visited[next[0] + 302][next[1] + 302] = true;
-                        queue.addLast(next);
+        Set<String> set = new HashSet<>();
+        set.add("0,0");
+        
+        Queue<int[]> q = new LinkedList<>();
+        q.add(new int[]{0,0});
+        
+        int dist = 0;
+        
+        while(!q.isEmpty()){
+            int size = q.size();
+            for(int i = 0 ; i < size; i++){
+                int[] cur = q.poll();
+                if(cur[0] == x && cur[1] == y) return dist;
+                for(int[] dir : DIRS){
+                    int newX = cur[0] + dir[0];
+                    int newY = cur[1] + dir[1];
+                    if(!set.contains(newX+","+newY) && newX >=-1 && newY >=-1){
+                        set.add(newX+","+newY);
+                        q.add(new int[]{newX, newY});
                     }
                 }
             }
-            steps++;
+            dist++;
         }
-        // move on to the next level
-        return steps;
+        return -1;
     }
 }
