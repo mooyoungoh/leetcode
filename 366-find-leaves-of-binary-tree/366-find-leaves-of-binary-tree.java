@@ -15,21 +15,20 @@
  */
 class Solution {
     public List<List<Integer>> findLeaves(TreeNode root) {
-        List<List<Integer>> res = new ArrayList<>();
-        helper(root, res);
-        return res;
+        List<List<Integer>> ans = new ArrayList<>();
+        helper(root, ans);
+        return ans;
     }
     
-    public int helper(TreeNode node, List<List<Integer>> res){
+    private int helper(TreeNode node, List<List<Integer>> ans){
         if(node == null) return -1;
         
-        int level = 1 + Math.max(helper(node.left, res), helper(node.right ,res));
+        int level = 1 + Math.max(helper(node.left, ans), helper(node.right, ans));
+        if(ans.size() == level)
+            ans.add(new ArrayList<>());
         
-        if(res.size() == level){
-            res.add(new ArrayList<>());
-        }
+        ans.get(level).add(node.val);
         
-        res.get(level).add(node.val);
         return level;
     }
 }
