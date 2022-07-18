@@ -1,12 +1,15 @@
 class Solution {
-    private final int[][] DIRS = {{1,0}, {-1,0}, {0,1}, {0,-1}};
+    
+    private final int[][] DIRS = {{-1,0}, {1,0}, {0,-1}, {0,1}};
+    
     public int shortestPath(int[][] grid, int k) {
+    
         int m = grid.length;
         int n = grid[0].length;
         
         int dist = 0;
         
-        Queue<int[]> q = new LinkedList<>();
+        Queue<int[]>q = new LinkedList<>();
         q.offer(new int[]{0,0,0});
         
         int[][] visited = new int[m][n];
@@ -15,23 +18,23 @@ class Solution {
         
         while(!q.isEmpty()){
             int size = q.size();
-            for(int i = 0; i < size; i++){
-                int []cur = q.poll();
-                if(cur[0] == m-1 && cur[1] == n-1)return dist;
+            for(int i = 0 ; i < size; i++){
+                int[] cur = q.poll();
+                if(cur[0] == m-1 && cur[1] == n-1) return dist;
                 for(int[] dir : DIRS){
-                    int newX = dir[0] + cur[0];
-                    int newY = dir[1] + cur[1];
+                    int newX = cur[0] + dir[0];
+                    int newY = cur[1] + dir[1];
                     
-                    if(newX < 0 || newY < 0 || newX >= m || newY >=n)
+                    if(newX < 0 || newX >= m || newY <0 || newY >= n)
                         continue;
                     
-                    int newK = grid[newX][newY] + cur[2];
+                    int newK = cur[2] + grid[newX][newY];
                     
+                    if(visited[newX][newY] <= newK)continue;
                     if(newK > k) continue;
-                    if(visited[newX][newY] <= newK) continue;
                     
                     visited[newX][newY] = newK;
-                    q.offer(new int[]{newX, newY, newK});
+                    q.offer(new int[]{newX,newY,newK});
                 }
             }
             dist++;
