@@ -15,19 +15,18 @@ class Solution {
         ListNode smaller = smallerHead;
         ListNode bigger = biggerHead;
         
-        while (head != null) {
-            if (head.val < x) {
+        while(head != null){
+            if(head.val < x){
                 smaller.next = head;
                 smaller = head;
-            } else {
+            }else{
                 bigger.next = head;
                 bigger = head;
             }
             head = head.next;
         }
-        // no need for extra check because of fake heads
-        smaller.next = biggerHead.next; // join bigger after smaller
-        bigger.next = null; // cut off anything after bigger
+        smaller.next = biggerHead.next;
+        bigger.next = null;
         return smallerHead.next;
     }
 }
