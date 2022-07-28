@@ -2,9 +2,8 @@ class Solution {
     public int arrayPairSum(int[] nums) {
         int ans = 0;
         Arrays.sort(nums);
-        for(int i = 0 ; i < nums.length; i++){
-            if(i % 2 == 0)
-                ans += nums[i];
+        for(int i = 0 ; i < nums.length; i = i + 2){
+            ans += nums[i];
         }
         return ans;
     }
