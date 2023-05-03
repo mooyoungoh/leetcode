@@ -2,7 +2,6 @@ class Solution {
     public int[][] indexPairs(String text, String[] words) {
         List<int[]> res = new ArrayList<>();
         for(int i = 0 ; i < words.length; i++){
-            String temp = text;
             int index = 0;
             while(index != -1){
                 index = text.indexOf(words[i], index);
