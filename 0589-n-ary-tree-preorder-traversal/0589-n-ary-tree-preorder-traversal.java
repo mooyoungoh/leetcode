@@ -20,16 +20,21 @@ class Node {
 class Solution {
     public List<Integer> preorder(Node root) {
         List<Integer> ret = new ArrayList<>();
-        treverse(root, ret);
-        return ret;
-    }
-    public void treverse(Node root, List<Integer> ret){
-        if(root == null){
-            return;
+        
+        if(root == null) return ret;
+        
+        Stack<Node> s = new Stack<>();
+        s.add(root);
+        
+        while(!s.isEmpty()){
+            Node child = s.pop();
+            ret.add(child.val);
+            int size = child.children.size();
+            for(int i = size - 1; i>=0; i--){
+                s.add(child.children.get(i));
+            }
+            
         }
-        ret.add(root.val);
-        for(Node child : root.children){
-            treverse(child, ret);
-        }
+        return ret;   
     }
 }
