@@ -13,10 +13,10 @@ class Solution {
         ListNode dummy = new ListNode(0);
         dummy.next = head;
         ListNode point = dummy;
-        while(point.next != null && point.next.next !=null){
+        while(point.next != null && point.next.next != null){
             ListNode swap1 = point.next;
             ListNode swap2 = point.next.next;
-            point.next = swap2;
+            point.next = swap1.next;
             swap1.next = swap2.next;
             swap2.next = swap1;
             point = swap1;
