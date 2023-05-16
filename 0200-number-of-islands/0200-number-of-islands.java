@@ -6,8 +6,9 @@ class Solution {
                 if(grid[i][j] != '1'){
                     continue;
                 }else{
-                    ans++;
                     dfs(grid, i, j);
+                    
+                    ans++;
                 }
             }
         }
