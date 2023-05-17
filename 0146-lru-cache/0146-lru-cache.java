@@ -32,7 +32,7 @@ class LRUCache {
             }
             if(cur.prev != null) cur.prev.next = cur.next;
             if(cur.next != null) cur.next.prev = cur.prev;
-
+            
             head.prev = cur;
             cur.next = head;
             head = cur;
