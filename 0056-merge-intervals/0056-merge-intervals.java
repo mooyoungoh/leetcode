@@ -5,7 +5,7 @@ class Solution {
         for(int i = 1; i < intervals.length; i++){
             int[] a = intervals[i-1];
             int[] b = intervals[i];
-            if(a[1] >= b[0] && b[1] >= a[0]){
+            if(a[1] >= b[0] ){
                 b[0] = Math.min(a[0],b[0]);
                 b[1] = Math.max(a[1],b[1]);
             }else{
