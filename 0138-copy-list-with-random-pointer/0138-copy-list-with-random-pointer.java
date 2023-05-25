@@ -19,14 +19,15 @@ class Solution {
         Map<Node, Node> map = new HashMap<>();
         Node newHead = new Node(head.val);
         Node cur = newHead;
-        map.put(head, newHead);
-        while(head!=null){
+        map.put(head, newHead);        
+        while(head != null){
             if(head.next != null){
                 if(!map.containsKey(head.next)){
                     map.put(head.next, new Node(head.next.val));
                 }
                 cur.next = map.get(head.next);
             }
+            
             if(head.random != null){
                 if(!map.containsKey(head.random)){
                     map.put(head.random, new Node(head.random.val));
@@ -36,7 +37,6 @@ class Solution {
             head = head.next;
             cur = cur.next;
         }
-        
         return newHead;
     }
 }
