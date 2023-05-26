@@ -1,26 +1,12 @@
 class Solution {
     public int[] frequencySort(int[] nums) {
-        Map<Integer, Integer> count = new HashMap<>();
-        for (int num : nums) {
-            count.put(num, count.getOrDefault(num, 0) + 1);
-        }
-
-        List<Integer> list = new ArrayList<>();
-        for(int i : nums){
-            list.add(i);
-        }
+        Map<Integer, Integer> map = new HashMap<>();
+        Arrays.stream(nums).forEach(n -> map.put(n, map.getOrDefault(n, 0)+1));
         
-        Collections.sort(list, (a, b) -> {
-            if (!count.get(a).equals(count.get(b))) {
-                return count.get(a) - count.get(b);
-            }
-            return b - a;
-        });
-
-        for(int i = 0; i < nums.length; i++){
-            nums[i] = list.get(i);
-        }
-        
-        return nums;
+        return Arrays.stream(nums)
+            .boxed()
+            .sorted((a,b) -> map.get(a) != map.get(b) ? map.get(a) - map.get(b) : b - a)
+            .mapToInt(n -> n)
+            .toArray();
     }
 }
