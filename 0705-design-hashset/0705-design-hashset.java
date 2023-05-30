@@ -1,21 +1,26 @@
 class MyHashSet {
 
-    int[] map = new int[1000001];
+    List<Integer> list;
     
     public MyHashSet() {
-        
+        list = new ArrayList<>();
     }
     
     public void add(int key) {
-        map[key] = 1;
+        if(list.contains(key)){
+            return;
+        }
+        list.add(key);
     }
     
     public void remove(int key) {
-        map[key] = 0;
+        if(list.contains(key)){
+            list.remove(new Integer(key));
+        }
     }
     
     public boolean contains(int key) {
-        return map[key] == 1;
+        return list.contains(key);
     }
 }
 
