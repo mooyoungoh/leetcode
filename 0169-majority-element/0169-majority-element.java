@@ -5,8 +5,8 @@ class Solution {
         for(int num : nums){
             if(count == 0){
                 x = num;
-                count++;
-            }else if(x == num){
+            }
+            if(x == num){
                 count++;
             }else{
                 count--;
