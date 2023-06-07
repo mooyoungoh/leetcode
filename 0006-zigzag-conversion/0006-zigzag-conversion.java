@@ -10,6 +10,7 @@ class Solution {
             if(index==numRows-1)k=-1;
             index+=k;
         }
+        System.gc();
         return String.join("",sb);
     }
 }
