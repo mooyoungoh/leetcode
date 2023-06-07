@@ -6,10 +6,10 @@ class Solution {
             if(count == 0){
                 x = num;
             }
-            if(x == num){
-                count++;
-            }else{
+            if(num != x){
                 count--;
+            }else{
+                count++;
             }
         }
         return x;
