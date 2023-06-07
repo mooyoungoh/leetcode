@@ -3,13 +3,13 @@ class Solution {
         if(numRows <= 1) return s;
         StringBuilder[] sb = new StringBuilder[numRows];
         for(int i = 0; i < numRows; i++) sb[i] = new StringBuilder();
-        int idx = 0, k = 0;
+        int k = 0; int index = 0;
         for(char c : s.toCharArray()){
-            sb[idx].append(c);
-            if(idx==0) k=1;
-            if(idx==numRows-1) k=-1;
-            idx+=k;
+            sb[index].append(c);
+            if(index==0)k=1;
+            if(index==numRows-1)k=-1;
+            index+=k;
         }
-        return String.join("", sb);
+        return String.join("",sb);
     }
 }
