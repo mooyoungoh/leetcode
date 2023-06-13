@@ -3,10 +3,10 @@ class Solution {
         int buy = prices[0];
         int sell = 0;
         for(int price : prices){
-            if(buy > price){
+            if(price < buy){
                 buy = price;
             }else{
-                sell += (price - buy);
+                sell += price - buy;
                 buy = price;
             }
         }
