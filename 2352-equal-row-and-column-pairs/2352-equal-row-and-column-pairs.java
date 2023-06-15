@@ -1,32 +1,22 @@
 class Solution {
-    public int equalPairs(int[][] g) {
-
-        int n = g.length;
-        int res = 0;
-		//convert the numbers in each row to a single string
-        Map<String, Integer> sToFreq = new HashMap<>();
-        for (int i = 0; i < n; i++) {
-            StringBuilder sb = new StringBuilder();
-            for (int j = 0; j < n; j++) { 
-                sb.append(g[i][j]);
-                sb.append("+");
+    public int equalPairs(int[][] grid) {
+        int count = 0;
+        int n = grid.length;
+        
+        for(int r = 0; r < n; r++){
+            for(int c = 0; c < n; c++){
+                boolean match = true;
+                
+                for(int i = 0; i < n; i++){
+                    if(grid[r][i] != grid[i][c]){
+                        match = false;
+                        break;
+                    }
+                }
+                count += match ? 1 : 0;
             }
-            String s = sb.toString();
-            sToFreq.put(s, sToFreq.getOrDefault(s, 0) + 1);
         }
         
-		//convert the numbers in each col to string and find the matches
-        for (int j = 0; j < n; j++) {
-            StringBuilder sb = new StringBuilder();
-            for (int i = 0; i < n; i++) { 
-                sb.append(g[i][j]);
-                sb.append("+");
-            }
-            String s = sb.toString();
-            if (sToFreq.containsKey(s)) {
-                res += sToFreq.get(s);
-            }
-        }
-        return res;
+        return count;
     }
 }
