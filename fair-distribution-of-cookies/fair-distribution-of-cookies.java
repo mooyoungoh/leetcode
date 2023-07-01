@@ -5,14 +5,15 @@ class Solution {
         return res;
     }
 
-    void dfs(int[] cookies, int cur, int k, int[] children) {
-        if (cur == cookies.length) {
+    void dfs(int[] cookies, int cur, int k, int[] children){
+        if(cur == cookies.length){
             int max = 0;
-            for (int c : children) max = Math.max(max, c);
+            for(int c : children) max = Math.max(c, max);
             res = Math.min(res, max);
             return;
         }
-        for (int i = 0; i < k; i++) {
+
+        for(int i = 0; i < k; i++){
             children[i] += cookies[cur];
             dfs(cookies, cur + 1, k, children);
             children[i] -= cookies[cur];
