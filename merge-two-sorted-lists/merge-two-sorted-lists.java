@@ -20,18 +20,17 @@ class Solution {
                 }else{
                     cur.next = list1;
                     cur = list1;
-                }     
+                }
                 list1 = list1.next;
-            }
-            else{
+            }else{
                 if(ret == null){
                     ret = list2;
                     cur = list2;
                 }else{
                     cur.next = list2;
                     cur = list2;
-                }     
-                list2 = list2.next;
+                }
+                list2 = list2.next;                              
             }
         }
         return ret;
