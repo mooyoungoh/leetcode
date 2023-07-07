@@ -1,23 +1,35 @@
-class Solution{
-    public ListNode reverseBetween(ListNode head, int m, int n) {
-        if(head == null || m == n) {
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+class Solution {
+    public ListNode reverseBetween(ListNode head, int left, int right) {
+        if(head == null || left == right){
             return head;
         }
-        ListNode dummy = new ListNode(-1);
-        ListNode p = dummy;
-        dummy.next = head;
 
-        for(int i = 0; i < m-1;i++) {
-            p = p.next;
+        ListNode dummyHead = new ListNode();
+        ListNode cur = dummyHead;
+        dummyHead.next = head;
+
+        for(int i = 0; i < left - 1; i++){
+            cur = cur.next;
         }
-        ListNode tail = p.next;
+
+        ListNode tail = cur.next;
         
-        for(int i = 0; i < n-m; i++) {
-            ListNode tmp = p.next;
-            p.next = tail.next;
+        for(int i = 0; i < right - left; i++){
+            ListNode tmp = cur.next;
+            cur.next = tail.next;
             tail.next = tail.next.next;
-            p.next.next = tmp;
+            cur.next.next = tmp;
         }
-        return dummy.next;    
+        return dummyHead.next;
     }
 }
