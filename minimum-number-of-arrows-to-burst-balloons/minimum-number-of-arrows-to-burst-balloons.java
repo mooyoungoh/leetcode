@@ -1,10 +1,10 @@
 class Solution {
     public int findMinArrowShots(int[][] points) {
-        if(points.length == 0) return 0;
+        if(points == null) return 0;
 
-        Arrays.sort(points, (o1, o2) -> {
-            if(o1[1] == o2[1]) return 0;
-            if(o1[1] < o2[1]) return -1;
+        Arrays.sort(points, (a, b) ->{
+            if(a[1] == b[1]) return 0;
+            if(a[1] < b[1]) return -1;
             return 1;
         });    
 
