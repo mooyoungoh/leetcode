@@ -15,7 +15,6 @@ public class Solution {
         ListNode walk = head;
         ListNode run = head;
         while(run.next != null){
-
             run = run.next;
             if(run.next != null){
                 run = run.next;
