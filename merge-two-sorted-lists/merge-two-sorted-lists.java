@@ -19,7 +19,7 @@ class Solution {
                     cur = list1;
                 }else{
                     cur.next = list1;
-                    cur = list1;
+                    cur = cur.next;
                 }
                 list1 = list1.next;
             }else{
@@ -28,7 +28,7 @@ class Solution {
                     cur = list2;
                 }else{
                     cur.next = list2;
-                    cur = list2;
+                    cur = cur.next;
                 }
                 list2 = list2.next;                              
             }
