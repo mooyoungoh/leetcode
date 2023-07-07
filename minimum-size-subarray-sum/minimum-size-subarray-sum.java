@@ -6,8 +6,7 @@ class Solution {
             sum += nums[right];
             while(sum >= target){
                 ans = Math.min(ans, right - left + 1);
-                sum -= nums[left];
-                left++;
+                sum -= nums[left++];
             }
         }    
         return ans == Integer.MAX_VALUE ? 0 : ans;
