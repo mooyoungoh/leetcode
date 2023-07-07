@@ -19,8 +19,8 @@ class Solution {
             }else if(cur == '('){
                 stk.add(result);
                 stk.add(sign);
-                result = 0;
                 sign = 1;
+                result = 0;
             }else if(cur == ')'){
                 result += operand * sign;
                 result *= stk.pop();
@@ -28,6 +28,6 @@ class Solution {
                 operand = 0;
             }
         }
-        return result + (sign * operand);
+        return result + (operand * sign);
     }
 }
