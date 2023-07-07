@@ -1,13 +1,13 @@
 class Solution {
     public int calculate(String s) {
-        Stack<Integer> stack = new Stack<>();
+        Stack<Integer> stk = new Stack<>();
         int operand = 0;
         int sign = 1;
         int result = 0;
         for(int i = 0; i < s.length(); i++){
             char cur = s.charAt(i);
             if(Character.isDigit(cur)){
-                operand = 10 * operand + cur - '0';
+                operand = operand * 10 + cur - '0';
             }else if(cur == '+'){
                 result += operand * sign;
                 sign = 1;
@@ -16,18 +16,18 @@ class Solution {
                 result += operand * sign;
                 sign = -1;
                 operand = 0;
-            }else if(cur == '('){  
-                stack.push(result);
-                stack.push(sign);
+            }else if(cur == '('){
+                stk.add(result);
+                stk.add(sign);
                 result = 0;
                 sign = 1;
             }else if(cur == ')'){
-                result += sign * operand;
-                result *= stack.pop();
-                result += stack.pop();
+                result += operand * sign;
+                result *= stk.pop();
+                result += stk.pop();
                 operand = 0;
             }
         }
-        return result + (operand * sign);
+        return result + (sign * operand);
     }
 }
