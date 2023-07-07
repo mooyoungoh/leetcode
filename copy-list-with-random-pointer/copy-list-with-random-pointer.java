@@ -24,24 +24,23 @@ class Solution {
             if(head.next != null){
                 if(!map.containsKey(head.next)){
                     map.put(head.next, new Node(head.next.val));
-                }   
-                cur.next = map.get(head.next); 
+                }
+                cur.next = map.get(head.next);
             }
 
             if(head.random != null){
                 if(!map.containsKey(head.random)){
                     map.put(head.random, new Node(head.random.val));
-                }   
-                cur.random = map.get(head.random); 
+                }
+                cur.random = map.get(head.random);
             }
+            
             head = head.next;
             cur = cur.next;
         }
         return newHead;
     }
 }
-
-
 
 
 
