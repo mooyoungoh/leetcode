@@ -1,50 +1,48 @@
 class LRUCache {
-
-    public class Cache{
+    public class CacheItem{
         int key;
-        int val;
-        public Cache(int key, int val){
+        int value;
+        public CacheItem(int key, int value){
             this.key = key;
-            this.val = val;
+            this.value = value;
         }
-        Cache next;
-        Cache prev;
+        CacheItem prev;
+        CacheItem next;
     }
 
-    Cache head;
-    Cache tail;
+    CacheItem head;
+    CacheItem tail;
     int capacity;
-    Map<Integer, Cache> map;
+    Map<Integer, CacheItem> map;
     public LRUCache(int capacity) {
         head = null;
         tail = null;
-        map = new HashMap<>();
         this.capacity = capacity;
+        map = new HashMap<>();
     }
     
     public int get(int key) {
-        if(!map.containsKey(key)){
-            return -1;
-        }
-        Cache cur = map.get(key);
+        if(!map.containsKey(key))return -1;
+        CacheItem cur = map.get(key);
         if(cur != head){
             if(cur == tail){
                 tail = tail.prev;
             }
-            //head - cur.prev - cur - cur.next;
+
             if(cur.prev != null) cur.prev.next = cur.next;
             if(cur.next != null) cur.next.prev = cur.prev;
 
             head.prev = cur;
             cur.next = head;
             head = cur;
-        }
-        return cur.val;
+        }        
+        return cur.value;
     }
     
     public void put(int key, int value) {
         if(get(key) == -1){
-            Cache cur = new Cache(key, value);
+            CacheItem cur = new CacheItem(key, value);
+            
             if(head == null){
                 head = cur;
                 tail = cur;
@@ -59,7 +57,7 @@ class LRUCache {
                 tail = tail.prev;
             }
         }else{
-            map.get(key).val = value;
+            map.get(key).value = value;
         }
     }
 }
