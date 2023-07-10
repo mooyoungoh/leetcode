@@ -4,29 +4,25 @@
  *     int val;
  *     TreeNode left;
  *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
+ *     TreeNode(int x) { val = x; }
  * }
  */
 class Solution {
-    public TreeNode buildTree(int[] inorder, int[] postorder) {
-      return helper(inorder, postorder, postorder.length - 1, 0, inorder.length - 1);    
-    }
-    
-    TreeNode helper(int[] inorder, int[] postorder, int ppos, int is, int ie){
-      if(ppos >= postorder.length || is > ie) return null;
-      TreeNode node = new TreeNode(postorder[ppos]);
-      int pii = 0;
-      for(int i = 0; i < inorder.length; i++){
-        if(inorder[i] == postorder[ppos]) pii = i;  
+  public TreeNode buildTree(int[] in, int[] post) {
+    if (in == null || in.length == 0 || post == null || post.length == 0) return null; 
+    return helper(post, post.length - 1, in, 0, in.length - 1);
+  }
+  private TreeNode helper(int[] post, int idx, int[] in, int start, int end) {
+    if (start > end || idx < 0) return null; 
+    TreeNode root = new TreeNode(post[idx]);
+    int i;
+    for (i = start; i <= end; i++) {
+      if (in[i] == root.val) {
+        break;
       }
-      node.left = helper(inorder, postorder, ppos - 1 - ie + pii, is, pii - 1);
-      node.right = helper(inorder, postorder, ppos - 1 , pii + 1, ie);
-      return node;
     }
+    root.right = helper(post, idx - 1, in, i + 1, end);
+    root.left = helper(post, idx - (end - i  + 1), in, start, i - 1);
+    return root;    
+  }
 }
