@@ -15,17 +15,20 @@
  */
 class Solution {
     public boolean isValidBST(TreeNode root) {
-        return isValid(root, false, false, 0, 0);
+        return helper(root, false, false, 0, 0);
     }
 
-    private boolean isValid(TreeNode root, boolean isLowerBound, boolean isUpperBound, int lowerValue, int upperValue){
+    public boolean helper(TreeNode root, boolean isLowerExist, boolean isUpperExist, int lower, int upper){
         if(root == null) return true;
-        if(isLowerBound && root.val <= lowerValue)
-            return false;
-        if(isUpperBound && root.val >= upperValue)
-            return false;
         
-        return isValid(root.right, true, isUpperBound, root.val, upperValue) &&
-        isValid(root.left, isLowerBound, true, lowerValue, root.val);
+        if(isLowerExist && root.val <= lower){
+            return false;
+        }
+
+        if(isUpperExist && root.val >= upper){
+            return false;
+        }
+
+        return helper(root.left, isLowerExist, true, lower, root.val) && helper(root.right, true, isUpperExist, root.val, upper );
     }
 }
