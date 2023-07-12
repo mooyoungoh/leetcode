@@ -1,45 +1,40 @@
 class Solution {
     public List<Integer> eventualSafeNodes(int[][] graph) {
         int n = graph.length;
+        List<List<Integer>> adjList = new ArrayList<>();
         int[] indegree = new int[n];
-        List<List<Integer>> adj = new ArrayList<>();
-
-        for(int i = 0; i < n; i++) {
-            adj.add(new ArrayList<>());
+        for(int i = 0; i < n; i++){
+            adjList.add(new ArrayList<>());
         }
 
-        for (int i = 0; i < n; i++) {
-            for (int node : graph[i]) {
-                adj.get(node).add(i);
+        for(int i = 0; i < n; i++){
+            for(int node : graph[i]){
                 indegree[i]++;
+                adjList.get(node).add(i);
             }
         }
 
         Queue<Integer> q = new LinkedList<>();
-        // Push all the nodes with indegree zero in the queue.
-        for (int i = 0; i < n; i++) {
-            if (indegree[i] == 0) {
-                q.add(i);
-            }
+
+        for(int i = 0; i < n; i++){
+            if(indegree[i] == 0)
+                q.offer(i);
         }
 
         boolean[] safe = new boolean[n];
-        while (!q.isEmpty()) {
+        while(!q.isEmpty()){
             int node = q.poll();
             safe[node] = true;
-
-            for (int neighbor : adj.get(node)) {
-                // Delete the edge "node -> neighbor".
-                indegree[neighbor]--;
-                if (indegree[neighbor] == 0) {
-                    q.add(neighbor);
+            for(int i : adjList.get(node)){
+                if(--indegree[i] == 0){
+                    q.offer(i);
                 }
             }
         }
 
         List<Integer> safeNodes = new ArrayList<>();
-        for (int i = 0; i < n; i++) {
-            if (safe[i]) {
+        for(int i = 0; i < n; i++){
+            if(safe[i]){
                 safeNodes.add(i);
             }
         }
