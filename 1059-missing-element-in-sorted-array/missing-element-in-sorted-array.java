@@ -1,17 +1,15 @@
 class Solution {
     public int missingElement(int[] nums, int k) {
         int n = nums.length;
-        int left = 0, right = n - 1;
-        
-        while (left < right) {
-            int mid = right - (right - left) / 2;
-            if (nums[mid] - nums[0] - mid < k) {
-                left = mid;
-            } else{
-                right = mid - 1;
+
+        for(int i = 1; i < n; i++){
+            int gap = nums[i] - nums[i-1] - 1;
+            if(gap >= k){
+                return nums[i-1] + k;
             }
+            k-= gap;
         }
-        
-        return nums[0] + k + left;
+
+        return nums[n-1] + k;
     }
 }
