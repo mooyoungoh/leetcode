@@ -14,6 +14,7 @@ class Solution {
         ListNode afterHead = new ListNode(0);
         ListNode before = beforeHead;
         ListNode after = afterHead;
+
         while(head != null){
             if(head.val < x){
                 before.next = head;
@@ -23,11 +24,11 @@ class Solution {
                 after = after.next;
             }
             head = head.next;
-        }
+        }   
 
         after.next = null;
         before.next = afterHead.next;
-
+        
         return beforeHead.next;
     }
 }
