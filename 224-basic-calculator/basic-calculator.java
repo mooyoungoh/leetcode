@@ -1,20 +1,22 @@
 class Solution {
     public int calculate(String s) {
+
         Stack<Integer> stk = new Stack<>();
-        int result = 0;
-        int sign = 1;
+        
         int operand = 0;
-        for(int i = 0; i < s.length(); i++){
+        int sign = 1;
+        int result = 0;
+        for(int i = 0 ; i < s.length(); i++){
             char cur = s.charAt(i);
             if(Character.isDigit(cur)){
                 operand = operand * 10 + cur - '0';
             }
-            else if(cur == '+'){
-                result += operand * sign;
+            if(cur == '+'){
+                result+= operand * sign;
                 sign = 1;
                 operand = 0;
             }else if(cur == '-'){
-                result += operand * sign;
+                result+= operand * sign;
                 sign = -1;
                 operand = 0;
             }else if(cur == '('){
@@ -28,8 +30,7 @@ class Solution {
                 result += stk.pop();
                 operand = 0;
             }
-            
         }
-        return result + operand * sign;
+        return result + (operand * sign);
     }
 }
