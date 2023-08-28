@@ -10,7 +10,7 @@ class MyStack {
         int size = q.size();
         q.add(x);
         for(int i = 0; i < size; i++){
-            q.offer(q.poll());
+            q.add(q.poll());
         }
     }
     
