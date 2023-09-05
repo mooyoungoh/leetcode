@@ -17,13 +17,11 @@ public class Codec {
         int i = 0;
         while(i < s.length()){
             int slash = s.indexOf('/', i);
-            int size = Integer.valueOf(s.substring(i, slash));
-            i = slash + size + 1;
+            int size = Integer.parseInt(s.substring(i, slash));
+            i = slash + 1 + size;
             ans.add(s.substring(slash + 1, i));
         }
-
         return ans;
-
     }
 }
 
