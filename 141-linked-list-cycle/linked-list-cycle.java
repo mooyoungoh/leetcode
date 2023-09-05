@@ -20,7 +20,7 @@ public class Solution {
                 runner = runner.next;
                 walker = walker.next;
             }
-            if(runner == walker) return true;
+            if(runner == walker) return true;            
         }
         return false;
     }
