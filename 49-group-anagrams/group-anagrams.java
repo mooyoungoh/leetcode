@@ -1,10 +1,10 @@
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
-        Map<String, List<String>> map = new HashMap<>();
+        var map = new HashMap<String, List<String>>();
         for(String s : strs){
             char[] ca = new char[26];
             for(int i = 0; i < s.length(); i++){
-                ca[s.charAt(i) -'a']++;
+                ca[s.charAt(i) - 'a']++;
             }
             String key = String.valueOf(ca);
             map.putIfAbsent(key, new ArrayList<>());
