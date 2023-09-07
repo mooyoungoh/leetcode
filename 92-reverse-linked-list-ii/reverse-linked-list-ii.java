@@ -10,7 +10,7 @@
  */
 class Solution {
     public ListNode reverseBetween(ListNode head, int left, int right) {
-        if(head == null || left == right) return head;
+        if(head == null) return head;
 
         ListNode dummyHead = new ListNode();
         ListNode cur = dummyHead;
@@ -18,7 +18,7 @@ class Solution {
 
         for(int i = 0; i < left - 1; i++){
             cur = cur.next;
-        }       
+        }    
 
         ListNode tail = cur.next;
 
@@ -28,7 +28,7 @@ class Solution {
             tail.next = tail.next.next;
             cur.next.next = tmp;
         }
-        
+
         return dummyHead.next;
     }
 }
