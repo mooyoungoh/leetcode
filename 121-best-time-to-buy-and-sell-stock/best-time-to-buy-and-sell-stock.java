@@ -6,7 +6,6 @@ class Solution {
             int cur = prices[i];
             if(cur < buy){
                 buy = cur;
-                continue;
             }
             sell = Math.max(sell, cur - buy);
         }
