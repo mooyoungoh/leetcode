@@ -10,11 +10,11 @@ class Solution {
         }
 
         int[] res = new int[ans.size()];
-        for(int i = 0; i < ans.size(); i++){
-            res[i] = ans.get(i);
+        int index = 0;
+        for(int i = ans.size() - 1; i >= 0; i--){
+            res[index++] = ans.get(i);
         }
 
-        Arrays.sort(res);
 
         return res;
     }
