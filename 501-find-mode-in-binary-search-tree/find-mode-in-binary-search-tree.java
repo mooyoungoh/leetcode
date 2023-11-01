@@ -41,8 +41,9 @@ class Solution {
         if(root == null) return;
 
         
-        map.put(root.val, map.getOrDefault(root.val, 0) + 1);
+        
         if(root.left != null) tre(root.left);
+        map.put(root.val, map.getOrDefault(root.val, 0) + 1);
         if(root.right != null) tre(root.right);
     } 
 }
