@@ -8,7 +8,6 @@ class Solution {
         //termination
         if(numOpen == numClose && numOpen == n){
             ans.add(tmp);
-            tmp = "";
         }
         //recursion
         if(numOpen < n){
