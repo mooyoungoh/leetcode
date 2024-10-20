@@ -28,11 +28,10 @@ class Solution {
      //self;
      if(init == false){
         init = true;
-        prev = root.val;
      }else{
         min = Math.min(min, root.val - prev);
-        prev = root.val;
      }
+     prev = root.val;
      inorder(root.right);
     }
 }
