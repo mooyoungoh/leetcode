@@ -25,4 +25,24 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/mooyoungoh/leetcode/tree/master/0022-generate-parentheses) |
+## Tree
+|  |
+| ------- |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/mooyoungoh/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
+## Depth-First Search
+|  |
+| ------- |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/mooyoungoh/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/mooyoungoh/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/mooyoungoh/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
+## Binary Tree
+|  |
+| ------- |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/mooyoungoh/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 <!---LeetCode Topics End-->
