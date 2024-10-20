@@ -13,4 +13,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1509-replace-employee-id-with-the-unique-identifier](https://github.com/mooyoungoh/leetcode/tree/master/1509-replace-employee-id-with-the-unique-identifier) |
 | [1827-invalid-tweets](https://github.com/mooyoungoh/leetcode/tree/master/1827-invalid-tweets) |
 | [2087-confirmation-rate](https://github.com/mooyoungoh/leetcode/tree/master/2087-confirmation-rate) |
+## String
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/mooyoungoh/leetcode/tree/master/0022-generate-parentheses) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/mooyoungoh/leetcode/tree/master/0022-generate-parentheses) |
+## Backtracking
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/mooyoungoh/leetcode/tree/master/0022-generate-parentheses) |
 <!---LeetCode Topics End-->
