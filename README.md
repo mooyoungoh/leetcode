@@ -49,4 +49,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0461-hamming-distance](https://github.com/mooyoungoh/leetcode/tree/master/0461-hamming-distance) |
+## Linked List
+|  |
+| ------- |
+| [0021-merge-two-sorted-lists](https://github.com/mooyoungoh/leetcode/tree/master/0021-merge-two-sorted-lists) |
+## Recursion
+|  |
+| ------- |
+| [0021-merge-two-sorted-lists](https://github.com/mooyoungoh/leetcode/tree/master/0021-merge-two-sorted-lists) |
 <!---LeetCode Topics End-->
