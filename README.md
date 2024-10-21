@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0136-single-number](https://github.com/mooyoungoh/leetcode/tree/master/0136-single-number) |
 | [0461-hamming-distance](https://github.com/mooyoungoh/leetcode/tree/master/0461-hamming-distance) |
 ## Linked List
 |  |
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/mooyoungoh/leetcode/tree/master/0001-two-sum) |
+| [0136-single-number](https://github.com/mooyoungoh/leetcode/tree/master/0136-single-number) |
 ## Hash Table
 |  |
 | ------- |
