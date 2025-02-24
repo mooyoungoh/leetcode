@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/mooyoungoh/leetcode/tree/master/0022-generate-parentheses) |
 | [0242-valid-anagram](https://github.com/mooyoungoh/leetcode/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/mooyoungoh/leetcode/tree/master/0344-reverse-string) |
+| [0412-fizz-buzz](https://github.com/mooyoungoh/leetcode/tree/master/0412-fizz-buzz) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -80,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/mooyoungoh/leetcode/tree/master/0070-climbing-stairs) |
+| [0412-fizz-buzz](https://github.com/mooyoungoh/leetcode/tree/master/0412-fizz-buzz) |
 ## Memoization
 |  |
 | ------- |
@@ -137,4 +139,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/mooyoungoh/leetcode/tree/master/0169-majority-element) |
+## Simulation
+|  |
+| ------- |
+| [0412-fizz-buzz](https://github.com/mooyoungoh/leetcode/tree/master/0412-fizz-buzz) |
 <!---LeetCode Topics End-->
