@@ -92,11 +92,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/mooyoungoh/leetcode/tree/master/0001-two-sum) |
 | [0136-single-number](https://github.com/mooyoungoh/leetcode/tree/master/0136-single-number) |
+| [0217-contains-duplicate](https://github.com/mooyoungoh/leetcode/tree/master/0217-contains-duplicate) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/mooyoungoh/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 ## Hash Table
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/mooyoungoh/leetcode/tree/master/0001-two-sum) |
+| [0217-contains-duplicate](https://github.com/mooyoungoh/leetcode/tree/master/0217-contains-duplicate) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/mooyoungoh/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 ## Counting
 |  |
@@ -118,4 +120,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0232-implement-queue-using-stacks](https://github.com/mooyoungoh/leetcode/tree/master/0232-implement-queue-using-stacks) |
+## Sorting
+|  |
+| ------- |
+| [0217-contains-duplicate](https://github.com/mooyoungoh/leetcode/tree/master/0217-contains-duplicate) |
 <!---LeetCode Topics End-->
