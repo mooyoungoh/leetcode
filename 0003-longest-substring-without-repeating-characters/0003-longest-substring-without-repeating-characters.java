@@ -6,8 +6,9 @@ class Solution {
             if(map.containsKey(s.charAt(right))){
                 left = Math.max(map.get(s.charAt(right)), left);
             }
-            ans = Math.max(ans, right - left + 1);
             map.put(s.charAt(right), right + 1);
+
+            ans = Math.max(ans, right - left + 1);
         }
         return ans;
     }
