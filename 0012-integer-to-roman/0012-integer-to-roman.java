@@ -17,10 +17,10 @@ class Solution {
 
         StringBuilder sb = new StringBuilder();
 
-        for (Map.Entry<Integer, String> entry : roman.entrySet()) {
-            while (num >= entry.getKey()) {
-                sb.append(entry.getValue());
+        for(Map.Entry<Integer, String> entry : roman.entrySet()){
+            while(num >= entry.getKey()){
                 num -= entry.getKey();
+                sb.append(entry.getValue());
             }
         }
 
