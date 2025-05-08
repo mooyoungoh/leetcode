@@ -5,10 +5,13 @@ class Solution {
         n--;
         while(n >= 0){
             if(m >= 0 && nums1[m] > nums2[n]){
-                nums1[index--] = nums1[m--];
+                nums1[index] = nums1[m];
+                m--;
             }else{
-                nums1[index--] = nums2[n--];
+                nums1[index] = nums2[n];
+                n--;
             }
-        }    
+            index--;
+        }
     }
 }
