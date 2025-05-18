@@ -1,20 +1,20 @@
 class LRUCache {
 
-    public class cacheItem{
+    public class CacheItem{
         int key;
         int value;
-        cacheItem prev;
-        cacheItem next;
-        public cacheItem(int key, int value){
+        CacheItem prev;
+        CacheItem next;
+        public CacheItem(int key, int value){
             this.key = key;
             this.value = value;
         }
     }
 
-    cacheItem head;
-    cacheItem tail;
+    CacheItem head;
+    CacheItem tail;
     int capacity;
-    Map<Integer, cacheItem> map;
+    Map<Integer, CacheItem> map;
 
     public LRUCache(int capacity) {
         head = null;
@@ -26,11 +26,11 @@ class LRUCache {
     public int get(int key) {
         if(!map.containsKey(key)) return -1;
         
-        cacheItem cur = map.get(key);
+        CacheItem cur = map.get(key);
         if(cur != head){
             if(cur == tail){
                 tail = tail.prev;
-            }
+            }    
             // cur.prev - cur - cur.next
             if(cur.prev != null) cur.prev.next = cur.next;
             if(cur.next != null) cur.next.prev = cur.prev;
@@ -40,12 +40,13 @@ class LRUCache {
             head = cur;
         }
 
-        return cur.value;        
+        return cur.value;
     }
     
     public void put(int key, int value) {
         if(get(key) == -1){
-            cacheItem cur = new cacheItem(key, value);
+            //new
+            CacheItem cur = new CacheItem(key, value);
             if(head == null){
                 head = cur;
                 tail = cur;
