@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0014-longest-common-prefix](https://github.com/mooyoungoh/leetcode/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/mooyoungoh/leetcode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/mooyoungoh/leetcode/tree/master/0022-generate-parentheses) |
+| [0049-group-anagrams](https://github.com/mooyoungoh/leetcode/tree/master/0049-group-anagrams) |
 | [0127-word-ladder](https://github.com/mooyoungoh/leetcode/tree/master/0127-word-ladder) |
 | [0242-valid-anagram](https://github.com/mooyoungoh/leetcode/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/mooyoungoh/leetcode/tree/master/0344-reverse-string) |
@@ -116,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/mooyoungoh/leetcode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/mooyoungoh/leetcode/tree/master/0015-3sum) |
 | [0042-trapping-rain-water](https://github.com/mooyoungoh/leetcode/tree/master/0042-trapping-rain-water) |
+| [0049-group-anagrams](https://github.com/mooyoungoh/leetcode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/mooyoungoh/leetcode/tree/master/0056-merge-intervals) |
 | [0088-merge-sorted-array](https://github.com/mooyoungoh/leetcode/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/mooyoungoh/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -132,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/mooyoungoh/leetcode/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/mooyoungoh/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0012-integer-to-roman](https://github.com/mooyoungoh/leetcode/tree/master/0012-integer-to-roman) |
+| [0049-group-anagrams](https://github.com/mooyoungoh/leetcode/tree/master/0049-group-anagrams) |
 | [0127-word-ladder](https://github.com/mooyoungoh/leetcode/tree/master/0127-word-ladder) |
 | [0146-lru-cache](https://github.com/mooyoungoh/leetcode/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/mooyoungoh/leetcode/tree/master/0169-majority-element) |
@@ -170,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/mooyoungoh/leetcode/tree/master/0015-3sum) |
+| [0049-group-anagrams](https://github.com/mooyoungoh/leetcode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/mooyoungoh/leetcode/tree/master/0056-merge-intervals) |
 | [0088-merge-sorted-array](https://github.com/mooyoungoh/leetcode/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/mooyoungoh/leetcode/tree/master/0169-majority-element) |
