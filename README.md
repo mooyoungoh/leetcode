@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/mooyoungoh/leetcode/tree/master/0200-number-of-islands) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/mooyoungoh/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0775-n-ary-tree-preorder-traversal](https://github.com/mooyoungoh/leetcode/tree/master/0775-n-ary-tree-preorder-traversal) |
 ## Breadth-First Search
@@ -53,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/mooyoungoh/leetcode/tree/master/0107-binary-tree-level-order-traversal-ii) |
 | [0127-word-ladder](https://github.com/mooyoungoh/leetcode/tree/master/0127-word-ladder) |
+| [0200-number-of-islands](https://github.com/mooyoungoh/leetcode/tree/master/0200-number-of-islands) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/mooyoungoh/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 ## Binary Search Tree
 |  |
@@ -114,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/mooyoungoh/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/mooyoungoh/leetcode/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/mooyoungoh/leetcode/tree/master/0169-majority-element) |
+| [0200-number-of-islands](https://github.com/mooyoungoh/leetcode/tree/master/0200-number-of-islands) |
 | [0217-contains-duplicate](https://github.com/mooyoungoh/leetcode/tree/master/0217-contains-duplicate) |
 | [0605-can-place-flowers](https://github.com/mooyoungoh/leetcode/tree/master/0605-can-place-flowers) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/mooyoungoh/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
@@ -183,4 +186,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/mooyoungoh/leetcode/tree/master/0146-lru-cache) |
+## Union Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/mooyoungoh/leetcode/tree/master/0200-number-of-islands) |
+## Matrix
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/mooyoungoh/leetcode/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
