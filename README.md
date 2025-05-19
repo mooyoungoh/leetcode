@@ -119,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/mooyoungoh/leetcode/tree/master/0169-majority-element) |
 | [0200-number-of-islands](https://github.com/mooyoungoh/leetcode/tree/master/0200-number-of-islands) |
 | [0217-contains-duplicate](https://github.com/mooyoungoh/leetcode/tree/master/0217-contains-duplicate) |
+| [0347-top-k-frequent-elements](https://github.com/mooyoungoh/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0605-can-place-flowers](https://github.com/mooyoungoh/leetcode/tree/master/0605-can-place-flowers) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/mooyoungoh/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 ## Hash Table
@@ -132,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/mooyoungoh/leetcode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/mooyoungoh/leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/mooyoungoh/leetcode/tree/master/0242-valid-anagram) |
+| [0347-top-k-frequent-elements](https://github.com/mooyoungoh/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0778-reorganize-string](https://github.com/mooyoungoh/leetcode/tree/master/0778-reorganize-string) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/mooyoungoh/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/mooyoungoh/leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
@@ -139,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/mooyoungoh/leetcode/tree/master/0169-majority-element) |
+| [0347-top-k-frequent-elements](https://github.com/mooyoungoh/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0778-reorganize-string](https://github.com/mooyoungoh/leetcode/tree/master/0778-reorganize-string) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/mooyoungoh/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/mooyoungoh/leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
@@ -168,11 +171,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/mooyoungoh/leetcode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/mooyoungoh/leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/mooyoungoh/leetcode/tree/master/0242-valid-anagram) |
+| [0347-top-k-frequent-elements](https://github.com/mooyoungoh/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0778-reorganize-string](https://github.com/mooyoungoh/leetcode/tree/master/0778-reorganize-string) |
 ## Divide and Conquer
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/mooyoungoh/leetcode/tree/master/0169-majority-element) |
+| [0347-top-k-frequent-elements](https://github.com/mooyoungoh/leetcode/tree/master/0347-top-k-frequent-elements) |
 ## Simulation
 |  |
 | ------- |
@@ -202,5 +207,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/mooyoungoh/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0778-reorganize-string](https://github.com/mooyoungoh/leetcode/tree/master/0778-reorganize-string) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/mooyoungoh/leetcode/tree/master/0347-top-k-frequent-elements) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/mooyoungoh/leetcode/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
