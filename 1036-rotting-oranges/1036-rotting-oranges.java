@@ -20,24 +20,24 @@ class Solution {
 
         int[][] dirs = {{-1, 0}, {1, 0}, {0, 1}, {0, -1}};
 
-        int minutes = -1;
-        while(!q.isEmpty()){
+        int minutes = 0;
+        while (!q.isEmpty()) {
             int size = q.size();
-            for(int i = 0; i < size; i++){
+            boolean newRot = false; // Check if any new orange rotted this minute
+            for (int i = 0; i < size; i++) {
                 int[] cell = q.poll();
-                int x = cell[0];
-                int y = cell[1];
-                for(int[] dir : dirs){
-                    int nx = x + dir[0];
-                    int ny = y + dir[1];
-                    if(nx >= 0 && nx < grid.length && ny >= 0 && ny < grid[0].length && visited[nx][ny] == 1){
-                        visited[nx][ny] = 2;
+                for (int[] dir : dirs) {
+                    int nx = cell[0] + dir[0];
+                    int ny = cell[1] + dir[1];
+                    if (nx >= 0 && nx < grid.length && ny >= 0 && ny < grid[0].length && grid[nx][ny] == 1) {
+                        grid[nx][ny] = 2;
                         countFresh--;
                         q.offer(new int[]{nx, ny});
+                        newRot = true;
                     }
                 }
             }
-            minutes++;
+            if (newRot) minutes++; // Only increment if new rot occurred
         }
         if(countFresh == 0) return minutes;
         return -1;
