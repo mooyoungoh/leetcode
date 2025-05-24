@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0344-reverse-string](https://github.com/mooyoungoh/leetcode/tree/master/0344-reverse-string) |
 | [0412-fizz-buzz](https://github.com/mooyoungoh/leetcode/tree/master/0412-fizz-buzz) |
 | [0778-reorganize-string](https://github.com/mooyoungoh/leetcode/tree/master/0778-reorganize-string) |
+| [3194-find-words-containing-character](https://github.com/mooyoungoh/leetcode/tree/master/3194-find-words-containing-character) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/mooyoungoh/leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Dynamic Programming
 |  |
@@ -130,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/mooyoungoh/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0605-can-place-flowers](https://github.com/mooyoungoh/leetcode/tree/master/0605-can-place-flowers) |
 | [1036-rotting-oranges](https://github.com/mooyoungoh/leetcode/tree/master/1036-rotting-oranges) |
+| [3194-find-words-containing-character](https://github.com/mooyoungoh/leetcode/tree/master/3194-find-words-containing-character) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/mooyoungoh/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 ## Hash Table
 |  |
