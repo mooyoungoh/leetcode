@@ -98,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0012-integer-to-roman](https://github.com/mooyoungoh/leetcode/tree/master/0012-integer-to-roman) |
 | [0070-climbing-stairs](https://github.com/mooyoungoh/leetcode/tree/master/0070-climbing-stairs) |
+| [0380-insert-delete-getrandom-o1](https://github.com/mooyoungoh/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0412-fizz-buzz](https://github.com/mooyoungoh/leetcode/tree/master/0412-fizz-buzz) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/mooyoungoh/leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Memoization
@@ -131,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/mooyoungoh/leetcode/tree/master/0200-number-of-islands) |
 | [0217-contains-duplicate](https://github.com/mooyoungoh/leetcode/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/mooyoungoh/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0380-insert-delete-getrandom-o1](https://github.com/mooyoungoh/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0605-can-place-flowers](https://github.com/mooyoungoh/leetcode/tree/master/0605-can-place-flowers) |
 | [1036-rotting-oranges](https://github.com/mooyoungoh/leetcode/tree/master/1036-rotting-oranges) |
 | [3194-find-words-containing-character](https://github.com/mooyoungoh/leetcode/tree/master/3194-find-words-containing-character) |
@@ -149,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/mooyoungoh/leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/mooyoungoh/leetcode/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/mooyoungoh/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0380-insert-delete-getrandom-o1](https://github.com/mooyoungoh/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0778-reorganize-string](https://github.com/mooyoungoh/leetcode/tree/master/0778-reorganize-string) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/mooyoungoh/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/mooyoungoh/leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
@@ -173,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0146-lru-cache](https://github.com/mooyoungoh/leetcode/tree/master/0146-lru-cache) |
 | [0232-implement-queue-using-stacks](https://github.com/mooyoungoh/leetcode/tree/master/0232-implement-queue-using-stacks) |
+| [0380-insert-delete-getrandom-o1](https://github.com/mooyoungoh/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 ## Queue
 |  |
 | ------- |
@@ -239,4 +243,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/mooyoungoh/leetcode/tree/master/0042-trapping-rain-water) |
+## Randomized
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/mooyoungoh/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 <!---LeetCode Topics End-->
