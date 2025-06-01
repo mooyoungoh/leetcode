@@ -15,11 +15,10 @@ class RandomizedSet {
     public boolean insert(int val) {
         if(map.containsKey(val)){
             return false;
-        }else{
-            map.put(val, size++);
-            list.add(val);
-            return true;
         }
+        map.put(val, size++);
+        list.add(val);
+        return true;
     }
     
     public boolean remove(int val) {
@@ -27,7 +26,7 @@ class RandomizedSet {
         int index = map.get(val);
         map.remove(val);
         if(index != list.size() - 1){
-            int swap = list.get(size - 1);
+            int swap = list.get(list.size() - 1);
             list.set(index, swap);
             map.put(swap, index);
         }
