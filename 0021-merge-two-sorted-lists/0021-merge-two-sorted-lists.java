@@ -22,6 +22,7 @@ class Solution {
             }
             cur = cur.next;
         }
+
         return dummy.next;
     }
 }
