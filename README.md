@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/mooyoungoh/leetcode/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/mooyoungoh/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0907-koko-eating-bananas](https://github.com/mooyoungoh/leetcode/tree/master/0907-koko-eating-bananas) |
+| [2720-minimize-the-maximum-difference-of-pairs](https://github.com/mooyoungoh/leetcode/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 ## Binary Tree
 |  |
 | ------- |
@@ -147,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0605-can-place-flowers](https://github.com/mooyoungoh/leetcode/tree/master/0605-can-place-flowers) |
 | [0907-koko-eating-bananas](https://github.com/mooyoungoh/leetcode/tree/master/0907-koko-eating-bananas) |
 | [1036-rotting-oranges](https://github.com/mooyoungoh/leetcode/tree/master/1036-rotting-oranges) |
+| [2720-minimize-the-maximum-difference-of-pairs](https://github.com/mooyoungoh/leetcode/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [3194-find-words-containing-character](https://github.com/mooyoungoh/leetcode/tree/master/3194-find-words-containing-character) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/mooyoungoh/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 ## Hash Table
@@ -227,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0135-candy](https://github.com/mooyoungoh/leetcode/tree/master/0135-candy) |
 | [0605-can-place-flowers](https://github.com/mooyoungoh/leetcode/tree/master/0605-can-place-flowers) |
 | [0778-reorganize-string](https://github.com/mooyoungoh/leetcode/tree/master/0778-reorganize-string) |
+| [2720-minimize-the-maximum-difference-of-pairs](https://github.com/mooyoungoh/leetcode/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 ## Doubly-Linked List
 |  |
 | ------- |
