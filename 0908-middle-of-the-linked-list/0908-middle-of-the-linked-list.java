@@ -10,16 +10,15 @@
  */
 class Solution {
     public ListNode middleNode(ListNode head) {
-        ListNode walk = head;
-        ListNode run = head;
-        
-        while(run.next != null){
-            run = run.next;
-            walk = walk.next;
-            if(run.next != null){
-                run = run.next;
+        ListNode walker = head;
+        ListNode runner = head;
+        while(runner.next != null){
+            runner = runner.next;
+            walker = walker.next;
+            if(runner.next != null){
+                runner = runner.next;
             }
         }
-        return walk;
+        return walker;
     }
 }
