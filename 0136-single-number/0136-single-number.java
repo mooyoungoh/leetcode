@@ -1,10 +1,13 @@
 class Solution {
     public int singleNumber(int[] nums) {
-        int ans = 0;
+        List<Integer> ans = new ArrayList<>();
         for(int num : nums){
-            ans ^= num;
+            if(!ans.contains(num)){
+                ans.add(num);
+            }else{
+                ans.remove(new Integer(num));
+            }
         }
-        return ans;
+        return ans.get(0);
     }
-
 }
