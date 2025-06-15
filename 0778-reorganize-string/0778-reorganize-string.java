@@ -31,7 +31,7 @@ class Solution {
                 if(index >= s.length()){
                     index = 1;
                 }
-                ans[index] = (char) (charCount[i] + 'a');
+                ans[index] = (char) (i + 'a');
                 index = index + 2;
                 charCount[i]--;
             }
