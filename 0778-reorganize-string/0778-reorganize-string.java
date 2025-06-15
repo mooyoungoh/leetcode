@@ -7,21 +7,22 @@ class Solution {
 
         int maxCount = 0, letter = 0;
         for(int i = 0; i < charCount.length; i++){
-            if(charCount[i] > maxCount){
+            if(maxCount < charCount[i]){
                 maxCount = charCount[i];
                 letter = i;
             }
         }
 
+        //terminination
         if(maxCount > (s.length() + 1) / 2){
             return "";
         }
 
         char[] ans = new char[s.length()];
         int index = 0;
-        while(charCount[letter] != 0){
+        while(charCount[letter] > 0){
             ans[index] = (char) (letter + 'a');
-            index += 2;
+            index = index + 2;
             charCount[letter]--;
         }
 
@@ -30,12 +31,11 @@ class Solution {
                 if(index >= s.length()){
                     index = 1;
                 }
-                ans[index] = (char) (i + 'a');
-                index += 2;
+                ans[index] = (char) (charCount[i] + 'a');
+                index = index + 2;
                 charCount[i]--;
             }
         }
-
         return new String(ans);
     }
 }
