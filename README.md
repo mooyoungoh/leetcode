@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/mooyoungoh/leetcode/tree/master/0107-binary-tree-level-order-traversal-ii) |
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/mooyoungoh/leetcode/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/mooyoungoh/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
+| [0663-equal-tree-partition](https://github.com/mooyoungoh/leetcode/tree/master/0663-equal-tree-partition) |
 | [0775-n-ary-tree-preorder-traversal](https://github.com/mooyoungoh/leetcode/tree/master/0775-n-ary-tree-preorder-traversal) |
 ## Depth-First Search
 |  |
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0094-binary-tree-inorder-traversal](https://github.com/mooyoungoh/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0200-number-of-islands](https://github.com/mooyoungoh/leetcode/tree/master/0200-number-of-islands) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/mooyoungoh/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
+| [0663-equal-tree-partition](https://github.com/mooyoungoh/leetcode/tree/master/0663-equal-tree-partition) |
 | [0775-n-ary-tree-preorder-traversal](https://github.com/mooyoungoh/leetcode/tree/master/0775-n-ary-tree-preorder-traversal) |
 ## Breadth-First Search
 |  |
@@ -80,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/mooyoungoh/leetcode/tree/master/0107-binary-tree-level-order-traversal-ii) |
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/mooyoungoh/leetcode/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/mooyoungoh/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
+| [0663-equal-tree-partition](https://github.com/mooyoungoh/leetcode/tree/master/0663-equal-tree-partition) |
 ## Bit Manipulation
 |  |
 | ------- |
