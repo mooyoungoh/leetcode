@@ -155,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0605-can-place-flowers](https://github.com/mooyoungoh/leetcode/tree/master/0605-can-place-flowers) |
 | [0907-koko-eating-bananas](https://github.com/mooyoungoh/leetcode/tree/master/0907-koko-eating-bananas) |
 | [1036-rotting-oranges](https://github.com/mooyoungoh/leetcode/tree/master/1036-rotting-oranges) |
+| [2144-maximum-difference-between-increasing-elements](https://github.com/mooyoungoh/leetcode/tree/master/2144-maximum-difference-between-increasing-elements) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/mooyoungoh/leetcode/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [3194-find-words-containing-character](https://github.com/mooyoungoh/leetcode/tree/master/3194-find-words-containing-character) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/mooyoungoh/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
