@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/mooyoungoh/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0198-house-robber](https://github.com/mooyoungoh/leetcode/tree/master/0198-house-robber) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/mooyoungoh/leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
+| [3751-maximum-frequency-after-subarray-operation](https://github.com/mooyoungoh/leetcode/tree/master/3751-maximum-frequency-after-subarray-operation) |
 ## Backtracking
 |  |
 | ------- |
@@ -171,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3194-find-words-containing-character](https://github.com/mooyoungoh/leetcode/tree/master/3194-find-words-containing-character) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/mooyoungoh/leetcode/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/mooyoungoh/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
+| [3751-maximum-frequency-after-subarray-operation](https://github.com/mooyoungoh/leetcode/tree/master/3751-maximum-frequency-after-subarray-operation) |
 ## Hash Table
 |  |
 | ------- |
@@ -191,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0778-reorganize-string](https://github.com/mooyoungoh/leetcode/tree/master/0778-reorganize-string) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/mooyoungoh/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/mooyoungoh/leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
+| [3751-maximum-frequency-after-subarray-operation](https://github.com/mooyoungoh/leetcode/tree/master/3751-maximum-frequency-after-subarray-operation) |
 ## Counting
 |  |
 | ------- |
@@ -204,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/mooyoungoh/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
+| [3751-maximum-frequency-after-subarray-operation](https://github.com/mooyoungoh/leetcode/tree/master/3751-maximum-frequency-after-subarray-operation) |
 ## Trie
 |  |
 | ------- |
@@ -256,6 +260,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0778-reorganize-string](https://github.com/mooyoungoh/leetcode/tree/master/0778-reorganize-string) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/mooyoungoh/leetcode/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/mooyoungoh/leetcode/tree/master/3241-divide-array-into-arrays-with-max-difference) |
+| [3751-maximum-frequency-after-subarray-operation](https://github.com/mooyoungoh/leetcode/tree/master/3751-maximum-frequency-after-subarray-operation) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -304,4 +309,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0210-course-schedule-ii](https://github.com/mooyoungoh/leetcode/tree/master/0210-course-schedule-ii) |
+## Prefix Sum
+|  |
+| ------- |
+| [3751-maximum-frequency-after-subarray-operation](https://github.com/mooyoungoh/leetcode/tree/master/3751-maximum-frequency-after-subarray-operation) |
 <!---LeetCode Topics End-->
