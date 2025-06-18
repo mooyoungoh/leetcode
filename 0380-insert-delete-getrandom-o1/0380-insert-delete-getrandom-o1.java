@@ -1,24 +1,22 @@
 class RandomizedSet {
 
     Map<Integer, Integer> map;
-    int size;
     List<Integer> list;
+    int size;
     Random r;
 
     public RandomizedSet() {
         map = new HashMap<>();
-        size = 0;
         list = new ArrayList<>();
+        size = 0;
         r = new Random();
     }
     
     public boolean insert(int val) {
-        if(map.containsKey(val)){
-            return false;
-        }
+        if(map.containsKey(val)) return false;
         map.put(val, size++);
         list.add(val);
-        return true;
+        return true;        
     }
     
     public boolean remove(int val) {
@@ -26,7 +24,7 @@ class RandomizedSet {
         int index = map.get(val);
         map.remove(val);
         if(index != list.size() - 1){
-            int swap = list.get(list.size() - 1);
+            int swap = list.get(size - 1);
             list.set(index, swap);
             map.put(swap, index);
         }
@@ -35,7 +33,7 @@ class RandomizedSet {
     }
     
     public int getRandom() {
-        int index = r.nextInt(size);
+        int index = r.nextInt(size);        
         return list.get(index);
     }
 }
