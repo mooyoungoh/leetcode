@@ -28,6 +28,6 @@ class Solution {
             }
         }
 
-        return index == numCourses ? ans : new int[]{0};
+        return index == numCourses ? ans : new int[0];
     }
 }
