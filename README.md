@@ -168,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-koko-eating-bananas](https://github.com/mooyoungoh/leetcode/tree/master/0907-koko-eating-bananas) |
 | [1036-rotting-oranges](https://github.com/mooyoungoh/leetcode/tree/master/1036-rotting-oranges) |
 | [2144-maximum-difference-between-increasing-elements](https://github.com/mooyoungoh/leetcode/tree/master/2144-maximum-difference-between-increasing-elements) |
+| [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/mooyoungoh/leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/mooyoungoh/leetcode/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [3194-find-words-containing-character](https://github.com/mooyoungoh/leetcode/tree/master/3194-find-words-containing-character) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/mooyoungoh/leetcode/tree/master/3241-divide-array-into-arrays-with-max-difference) |
@@ -191,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/mooyoungoh/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0692-top-k-frequent-words](https://github.com/mooyoungoh/leetcode/tree/master/0692-top-k-frequent-words) |
 | [0778-reorganize-string](https://github.com/mooyoungoh/leetcode/tree/master/0778-reorganize-string) |
+| [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/mooyoungoh/leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/mooyoungoh/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/mooyoungoh/leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/mooyoungoh/leetcode/tree/master/3751-maximum-frequency-after-subarray-operation) |
@@ -236,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/mooyoungoh/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0692-top-k-frequent-words](https://github.com/mooyoungoh/leetcode/tree/master/0692-top-k-frequent-words) |
 | [0778-reorganize-string](https://github.com/mooyoungoh/leetcode/tree/master/0778-reorganize-string) |
+| [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/mooyoungoh/leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/mooyoungoh/leetcode/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 ## Divide and Conquer
 |  |
@@ -283,6 +286,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/mooyoungoh/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0692-top-k-frequent-words](https://github.com/mooyoungoh/leetcode/tree/master/0692-top-k-frequent-words) |
 | [0778-reorganize-string](https://github.com/mooyoungoh/leetcode/tree/master/0778-reorganize-string) |
+| [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/mooyoungoh/leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 ## Bucket Sort
 |  |
 | ------- |
