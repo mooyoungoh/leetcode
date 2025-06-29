@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/mooyoungoh/leetcode/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/mooyoungoh/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0663-equal-tree-partition](https://github.com/mooyoungoh/leetcode/tree/master/0663-equal-tree-partition) |
+| [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/mooyoungoh/leetcode/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0775-n-ary-tree-preorder-traversal](https://github.com/mooyoungoh/leetcode/tree/master/0775-n-ary-tree-preorder-traversal) |
 ## Depth-First Search
 |  |
@@ -64,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/mooyoungoh/leetcode/tree/master/0210-course-schedule-ii) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/mooyoungoh/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0663-equal-tree-partition](https://github.com/mooyoungoh/leetcode/tree/master/0663-equal-tree-partition) |
+| [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/mooyoungoh/leetcode/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0775-n-ary-tree-preorder-traversal](https://github.com/mooyoungoh/leetcode/tree/master/0775-n-ary-tree-preorder-traversal) |
 ## Breadth-First Search
 |  |
@@ -79,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/mooyoungoh/leetcode/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/mooyoungoh/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
+| [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/mooyoungoh/leetcode/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0907-koko-eating-bananas](https://github.com/mooyoungoh/leetcode/tree/master/0907-koko-eating-bananas) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/mooyoungoh/leetcode/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 ## Binary Tree
@@ -89,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/mooyoungoh/leetcode/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/mooyoungoh/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0663-equal-tree-partition](https://github.com/mooyoungoh/leetcode/tree/master/0663-equal-tree-partition) |
+| [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/mooyoungoh/leetcode/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -99,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/mooyoungoh/leetcode/tree/master/0021-merge-two-sorted-lists) |
 | [0146-lru-cache](https://github.com/mooyoungoh/leetcode/tree/master/0146-lru-cache) |
+| [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/mooyoungoh/leetcode/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/mooyoungoh/leetcode/tree/master/0908-middle-of-the-linked-list) |
 ## Recursion
 |  |
@@ -115,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0224-basic-calculator](https://github.com/mooyoungoh/leetcode/tree/master/0224-basic-calculator) |
 | [0232-implement-queue-using-stacks](https://github.com/mooyoungoh/leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/mooyoungoh/leetcode/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
+| [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/mooyoungoh/leetcode/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0775-n-ary-tree-preorder-traversal](https://github.com/mooyoungoh/leetcode/tree/master/0775-n-ary-tree-preorder-traversal) |
 ## Math
 |  |
@@ -268,6 +274,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/mooyoungoh/leetcode/tree/master/0146-lru-cache) |
+| [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/mooyoungoh/leetcode/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 ## Union Find
 |  |
 | ------- |
