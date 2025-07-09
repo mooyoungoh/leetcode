@@ -5,14 +5,13 @@ class Solution {
             wordSet.add(word);
         }
 
+        Queue<String> q = new LinkedList<>();
+        q.add(beginWord);
+
         Set<String> visited = new HashSet<>();
         visited.add(beginWord);
-        
-        Queue<String> q = new LinkedList<>();
-        q.offer(beginWord);
 
         int ans = 1;
-
         while(!q.isEmpty()){
             int size = q.size();
             for(int i = 0; i < size; i++){
@@ -24,16 +23,16 @@ class Solution {
                         if(arr[j] == k) continue;
                         arr[j] = k;
                         String newWord = new String(arr);
-                        if(!visited.contains(newWord) &&wordSet.contains(newWord)){
-                            q.offer(newWord);
+                        if(wordSet.contains(newWord) && !visited.contains(newWord)){
                             visited.add(newWord);
+                            q.offer(newWord);
                         }
                     }
                 }
             }
             ans++;
         }
-        
+
         return 0;
     }
 }
