@@ -110,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/mooyoungoh/leetcode/tree/master/0146-lru-cache) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/mooyoungoh/leetcode/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/mooyoungoh/leetcode/tree/master/0908-middle-of-the-linked-list) |
+| [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/mooyoungoh/leetcode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 ## Recursion
 |  |
 | ------- |
@@ -136,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0224-basic-calculator](https://github.com/mooyoungoh/leetcode/tree/master/0224-basic-calculator) |
 | [0380-insert-delete-getrandom-o1](https://github.com/mooyoungoh/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0412-fizz-buzz](https://github.com/mooyoungoh/leetcode/tree/master/0412-fizz-buzz) |
+| [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/mooyoungoh/leetcode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/mooyoungoh/leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Memoization
 |  |
