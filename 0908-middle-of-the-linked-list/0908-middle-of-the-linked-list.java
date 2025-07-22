@@ -12,10 +12,11 @@ class Solution {
     public ListNode middleNode(ListNode head) {
         ListNode walker = head;
         ListNode runner = head;
-        while(runner != null && runner.next != null){
+        while(runner.next != null){
             walker = walker.next;
-            runner = runner.next.next;
-            
+            runner = runner.next;
+            if(runner.next != null)
+                runner = runner.next;
         }
         return walker;
     }
