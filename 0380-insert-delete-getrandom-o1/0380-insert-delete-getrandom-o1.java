@@ -15,8 +15,8 @@ class RandomizedSet {
     public boolean insert(int val) {
         if(map.containsKey(val)) return false;
         map.put(val, size++);
-        list.add(val);
-        return true;        
+        list.add(size);
+        return true;
     }
     
     public boolean remove(int val) {
@@ -28,12 +28,11 @@ class RandomizedSet {
             list.set(index, swap);
             map.put(swap, index);
         }
-        list.remove(--size);
         return true;
     }
     
     public int getRandom() {
-        int index = r.nextInt(size);        
+        int index = r.nextInt(size);
         return list.get(index);
     }
 }
