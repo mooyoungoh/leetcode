@@ -23,7 +23,7 @@ class RandomizedSet {
         if(!map.containsKey(val)) return false;
         int index = map.get(val);
         map.remove(val);
-        if(index != list.size() - 1){
+        if(index != size - 1){
             int swap = list.get(size - 1);
             list.set(index, swap);
             map.put(swap, index);
