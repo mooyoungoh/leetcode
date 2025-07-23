@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/mooyoungoh/leetcode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/mooyoungoh/leetcode/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/mooyoungoh/leetcode/tree/master/0049-group-anagrams) |
+| [0125-valid-palindrome](https://github.com/mooyoungoh/leetcode/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/mooyoungoh/leetcode/tree/master/0127-word-ladder) |
 | [0224-basic-calculator](https://github.com/mooyoungoh/leetcode/tree/master/0224-basic-calculator) |
 | [0242-valid-anagram](https://github.com/mooyoungoh/leetcode/tree/master/0242-valid-anagram) |
@@ -151,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/mooyoungoh/leetcode/tree/master/0015-3sum) |
 | [0042-trapping-rain-water](https://github.com/mooyoungoh/leetcode/tree/master/0042-trapping-rain-water) |
 | [0088-merge-sorted-array](https://github.com/mooyoungoh/leetcode/tree/master/0088-merge-sorted-array) |
+| [0125-valid-palindrome](https://github.com/mooyoungoh/leetcode/tree/master/0125-valid-palindrome) |
 | [0344-reverse-string](https://github.com/mooyoungoh/leetcode/tree/master/0344-reverse-string) |
 | [0908-middle-of-the-linked-list](https://github.com/mooyoungoh/leetcode/tree/master/0908-middle-of-the-linked-list) |
 ## Array
