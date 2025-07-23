@@ -18,18 +18,18 @@ class Node {
 */
 
 class Solution {
-    public List<Integer> preorder(Node root) {        
+    public List<Integer> preorder(Node root) {
+        
         List<Integer> ans = new ArrayList<>();
         if(root == null) return ans;
-
         Stack<Node> stk = new Stack<>();
-        stk.add(root);
+        stk.push(root);
 
         while(!stk.isEmpty()){
-            Node cur = stk.pop();
-            ans.add(cur.val);
-            for(int i = cur.children.size() - 1; i >= 0; i--){
-                stk.push(cur.children.get(i));
+            Node node = stk.pop();
+            ans.add(node.val);
+            for(int i = node.children.size() - 1; i >= 0; i--){
+                stk.push(node.children.get(i));
             }
         }
         return ans;
