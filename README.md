@@ -187,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0692-top-k-frequent-words](https://github.com/mooyoungoh/leetcode/tree/master/0692-top-k-frequent-words) |
 | [0907-koko-eating-bananas](https://github.com/mooyoungoh/leetcode/tree/master/0907-koko-eating-bananas) |
 | [1036-rotting-oranges](https://github.com/mooyoungoh/leetcode/tree/master/1036-rotting-oranges) |
+| [1206-corporate-flight-bookings](https://github.com/mooyoungoh/leetcode/tree/master/1206-corporate-flight-bookings) |
 | [1813-maximum-erasure-value](https://github.com/mooyoungoh/leetcode/tree/master/1813-maximum-erasure-value) |
 | [2144-maximum-difference-between-increasing-elements](https://github.com/mooyoungoh/leetcode/tree/master/2144-maximum-difference-between-increasing-elements) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/mooyoungoh/leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
@@ -343,5 +344,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [1206-corporate-flight-bookings](https://github.com/mooyoungoh/leetcode/tree/master/1206-corporate-flight-bookings) |
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/mooyoungoh/leetcode/tree/master/3751-maximum-frequency-after-subarray-operation) |
 <!---LeetCode Topics End-->
