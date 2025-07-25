@@ -90,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0285-inorder-successor-in-bst](https://github.com/mooyoungoh/leetcode/tree/master/0285-inorder-successor-in-bst) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/mooyoungoh/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/mooyoungoh/leetcode/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
+| [0792-binary-search](https://github.com/mooyoungoh/leetcode/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/mooyoungoh/leetcode/tree/master/0907-koko-eating-bananas) |
 | [0975-range-sum-of-bst](https://github.com/mooyoungoh/leetcode/tree/master/0975-range-sum-of-bst) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/mooyoungoh/leetcode/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
@@ -185,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/mooyoungoh/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0605-can-place-flowers](https://github.com/mooyoungoh/leetcode/tree/master/0605-can-place-flowers) |
 | [0692-top-k-frequent-words](https://github.com/mooyoungoh/leetcode/tree/master/0692-top-k-frequent-words) |
+| [0792-binary-search](https://github.com/mooyoungoh/leetcode/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/mooyoungoh/leetcode/tree/master/0907-koko-eating-bananas) |
 | [1036-rotting-oranges](https://github.com/mooyoungoh/leetcode/tree/master/1036-rotting-oranges) |
 | [1206-corporate-flight-bookings](https://github.com/mooyoungoh/leetcode/tree/master/1206-corporate-flight-bookings) |
