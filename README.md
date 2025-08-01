@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/mooyoungoh/leetcode/tree/master/0053-maximum-subarray) |
 | [0064-minimum-path-sum](https://github.com/mooyoungoh/leetcode/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/mooyoungoh/leetcode/tree/master/0070-climbing-stairs) |
+| [0118-pascals-triangle](https://github.com/mooyoungoh/leetcode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/mooyoungoh/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0198-house-robber](https://github.com/mooyoungoh/leetcode/tree/master/0198-house-robber) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/mooyoungoh/leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
@@ -176,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/mooyoungoh/leetcode/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/mooyoungoh/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0088-merge-sorted-array](https://github.com/mooyoungoh/leetcode/tree/master/0088-merge-sorted-array) |
+| [0118-pascals-triangle](https://github.com/mooyoungoh/leetcode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/mooyoungoh/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/mooyoungoh/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0135-candy](https://github.com/mooyoungoh/leetcode/tree/master/0135-candy) |
