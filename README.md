@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search Tree
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/mooyoungoh/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/mooyoungoh/leetcode/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [0285-inorder-successor-in-bst](https://github.com/mooyoungoh/leetcode/tree/master/0285-inorder-successor-in-bst) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/mooyoungoh/leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
@@ -168,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/mooyoungoh/leetcode/tree/master/0001-two-sum) |
+| [0004-median-of-two-sorted-arrays](https://github.com/mooyoungoh/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0011-container-with-most-water](https://github.com/mooyoungoh/leetcode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/mooyoungoh/leetcode/tree/master/0015-3sum) |
 | [0042-trapping-rain-water](https://github.com/mooyoungoh/leetcode/tree/master/0042-trapping-rain-water) |
@@ -274,6 +276,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/mooyoungoh/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0053-maximum-subarray](https://github.com/mooyoungoh/leetcode/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/mooyoungoh/leetcode/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/mooyoungoh/leetcode/tree/master/0347-top-k-frequent-elements) |
