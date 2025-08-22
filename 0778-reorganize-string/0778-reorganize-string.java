@@ -19,10 +19,10 @@ class Solution {
         char[] ans = new char[s.length()];
         int index = 0;
         
-        while(maxCount > 0){
+        while(count[letter] > 0){
             ans[index] = (char) (letter + 'a');
             index += 2;
-            maxCount--;
+            count[letter]--;
         }
 
         for(int i = 0; i < count.length; i++){
