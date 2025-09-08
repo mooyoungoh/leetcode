@@ -4,20 +4,24 @@ class Solution {
         for(int i = 0; i < grid.length; i++){
             for(int j = 0; j < grid[0].length; j++){
                 if(grid[i][j] == '1'){
-                    dfs(grid, i, j);
+                    traversal(grid, i, j);
                     ans++;
                 }
             }
-        }    
+        }
         return ans;
     }
 
-    public void dfs(char[][]grid, int i, int j){
+    public void traversal(char[][] grid, int i, int j){
         grid[i][j] = 'x';
-        //up
-        if(i > 0 && grid[i-1][j] == '1') dfs(grid, i - 1, j);
-        if(i < grid.length - 1 && grid[i + 1][j] == '1') dfs(grid, i + 1, j);
-        if(j > 0 && grid[i][j-1] == '1') dfs(grid, i, j -1);
-        if(j < grid[0].length - 1 && grid[i][j+1] == '1') dfs(grid, i, j + 1);
+        
+        //top
+        if(i > 0 && grid[i - 1][j] == '1') traversal(grid, i - 1, j);
+        //down
+        if(i < grid.length - 1&& grid[i + 1][j] == '1') traversal(grid, i + 1, j);
+        //left
+        if(j > 0 && grid[i][j-1] == '1') traversal(grid, i, j - 1);
+        //right
+        if(j < grid[0].length - 1 && grid[i][j+1] =='1') traversal(grid, i, j + 1);
     }
 }
