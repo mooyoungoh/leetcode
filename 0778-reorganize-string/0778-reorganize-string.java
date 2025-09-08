@@ -1,40 +1,42 @@
 class Solution {
     public String reorganizeString(String s) {
-        int[] count = new int[26];
+        int[] letter = new int[26];
         for(char c : s.toCharArray()){
-            count[c - 'a']++;
+            letter[c - 'a']++;
         }
 
-        int letter = 0;
-        int maxCount = -1;
-        for(int i = 0; i < count.length; i++){
-            if(maxCount < count[i]){
-                maxCount = count[i];
-                letter = i;
+        int count = 0;
+        int mostLetter = 0;
+        for(int i = 0; i < letter.length; i++){
+            if(letter[i] > count){
+                count = letter[i];
+                mostLetter = i;
             }
         }
 
-        if(maxCount > (s.length() + 1) / 2) return "";
+        if(count > (s.length() + 1) / 2) return "";
 
         char[] ans = new char[s.length()];
         int index = 0;
         
-        while(count[letter] > 0){
-            ans[index] = (char) (letter + 'a');
+        while(letter[mostLetter] > 0){
+            ans[index] = (char) (mostLetter + 'a');
             index += 2;
-            count[letter]--;
+            letter[mostLetter]--;
         }
-
-        for(int i = 0; i < count.length; i++){
-            while(count[i] > 0){
+        
+        for(int i = 0; i < letter.length; i++){
+            while(letter[i] > 0){
                 if(index > s.length() - 1){
                     index = 1;
                 }
                 ans[index] = (char) (i + 'a');
                 index += 2;
-                count[i]--;
+                letter[i]--;
             }
         }
+
         return new String(ans);
+
     }
 }
