@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0224-basic-calculator](https://github.com/mooyoungoh/leetcode/tree/master/0224-basic-calculator) |
 | [0242-valid-anagram](https://github.com/mooyoungoh/leetcode/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/mooyoungoh/leetcode/tree/master/0344-reverse-string) |
+| [0387-first-unique-character-in-a-string](https://github.com/mooyoungoh/leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0412-fizz-buzz](https://github.com/mooyoungoh/leetcode/tree/master/0412-fizz-buzz) |
 | [0443-string-compression](https://github.com/mooyoungoh/leetcode/tree/master/0443-string-compression) |
 | [0692-top-k-frequent-words](https://github.com/mooyoungoh/leetcode/tree/master/0692-top-k-frequent-words) |
@@ -230,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/mooyoungoh/leetcode/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/mooyoungoh/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/mooyoungoh/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
+| [0387-first-unique-character-in-a-string](https://github.com/mooyoungoh/leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0560-subarray-sum-equals-k](https://github.com/mooyoungoh/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0692-top-k-frequent-words](https://github.com/mooyoungoh/leetcode/tree/master/0692-top-k-frequent-words) |
 | [0778-reorganize-string](https://github.com/mooyoungoh/leetcode/tree/master/0778-reorganize-string) |
@@ -244,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0169-majority-element](https://github.com/mooyoungoh/leetcode/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/mooyoungoh/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0387-first-unique-character-in-a-string](https://github.com/mooyoungoh/leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0692-top-k-frequent-words](https://github.com/mooyoungoh/leetcode/tree/master/0692-top-k-frequent-words) |
 | [0778-reorganize-string](https://github.com/mooyoungoh/leetcode/tree/master/0778-reorganize-string) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/mooyoungoh/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
@@ -268,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0232-implement-queue-using-stacks](https://github.com/mooyoungoh/leetcode/tree/master/0232-implement-queue-using-stacks) |
+| [0387-first-unique-character-in-a-string](https://github.com/mooyoungoh/leetcode/tree/master/0387-first-unique-character-in-a-string) |
 ## Sorting
 |  |
 | ------- |
