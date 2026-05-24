@@ -4,22 +4,21 @@
  */
 var isHappy = function(n) {
     let walker = n;
-    let runner = goNext(n);
-    while(runner != 1 && walker != runner){
-        walker = goNext(walker);
-        runner = goNext(goNext(runner));
+    let runner = go(n);
+    while(walker !== runner && runner !== 1){
+        walker = go(walker);
+        runner = go(runner);
+        if(runner != null) runner = go(runner);
     }
     return runner === 1;
 };
 
-var goNext = function(n){
-    let res = 0;
-
-    while (n !== 0) {
-        let digit = n % 10;
-        res += digit * digit;
+var go = function(n){
+    let ans = 0;
+    while(n != 0){
+        let tmp = n % 10;
+        ans+= tmp * tmp;
         n = Math.floor(n / 10);
     }
-
-    return res;
-};
+    return ans;
+}
