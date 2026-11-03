@@ -215,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0692-top-k-frequent-words](https://github.com/mooyoungoh/leetcode/tree/master/0692-top-k-frequent-words) |
 | [0792-binary-search](https://github.com/mooyoungoh/leetcode/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/mooyoungoh/leetcode/tree/master/0907-koko-eating-bananas) |
+| [0985-sum-of-even-numbers-after-queries](https://github.com/mooyoungoh/leetcode/tree/master/0985-sum-of-even-numbers-after-queries) |
 | [1036-rotting-oranges](https://github.com/mooyoungoh/leetcode/tree/master/1036-rotting-oranges) |
 | [1098-largest-unique-number](https://github.com/mooyoungoh/leetcode/tree/master/1098-largest-unique-number) |
 | [1206-corporate-flight-bookings](https://github.com/mooyoungoh/leetcode/tree/master/1206-corporate-flight-bookings) |
@@ -315,6 +316,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0412-fizz-buzz](https://github.com/mooyoungoh/leetcode/tree/master/0412-fizz-buzz) |
+| [0985-sum-of-even-numbers-after-queries](https://github.com/mooyoungoh/leetcode/tree/master/0985-sum-of-even-numbers-after-queries) |
 ## Sliding Window
 |  |
 | ------- |
